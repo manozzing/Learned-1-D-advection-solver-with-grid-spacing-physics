@@ -10,7 +10,21 @@ The aims of this project include:
 * Test the generalization ability of the learned scheme in the regime out of training dataset
 
 ## Scripts
-Work in progress...
+1. Van_Leer_Type_Scheme_(L94).ipynb - This notebook has function to integrate the passive scalar advection with given initial condition and wind velocity field.
+
+2. Learning_advection.ipynb - This notebook has codes to build (or load) CNN model and train the model.
+
+3. Statistical_indices_calculation.ipynb - This notebook has codes to bring in the model output and calculate statistical indices including MAE, RMSE, r$^2$.
+
+4. Generalization_test_29N_Latitude.ipynb - This notebook has codes to test the generalization ability of learned models in 29N latitude.
+
+5. Generalization_test_45N_Latitude.ipynb - This notebook has codes to test the generalization ability of learned models in 45N latitude.
+
+6. Generalization_test_3_times_longer_integration.ipynb - This notebook has codes to test the stability of the learned schemes during 30 days.
+
+7. Generalization_test_Dirac-delta_initial_condition.ipynb - This notebook has codes to test the generalization ability of the learned scheme with Dirac-delta type initial condition.
+
+8. Generalization_test_Gaussian_shape_initial_condition.ipynb - This notebook has codes to test the generalization ability of the learned scheme with Gaussian distribution shape initial condition.
 
 ## Data
 Work in progress...
