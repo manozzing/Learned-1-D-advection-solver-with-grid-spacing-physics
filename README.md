@@ -14,7 +14,7 @@ The aims of this project include:
 
 2. Learning_advection.ipynb - This notebook has codes to build (or load) CNN model and train the model.
 
-3. Statistical_indices_calculation.ipynb - This notebook has codes to bring in the model output and calculate statistical indices including MAE, RMSE, r$^2$.
+3. Statistical_indices_calculation.ipynb - This notebook has codes to bring in the model output and calculate statistical indices including MAE, RMSE, r<sup>2</sup>.
 
 4. Generalization_test_29N_Latitude.ipynb - This notebook has codes to test the generalization ability of learned models in 29N latitude.
 
@@ -27,7 +27,9 @@ The aims of this project include:
 8. Generalization_test_Gaussian_shape_initial_condition.ipynb - This notebook has codes to test the generalization ability of the learned scheme with Gaussian distribution shape initial condition.
 
 ## Data
-Work in progress...
+1. models_and_outputs - This directory has the learned models and outputs. Those models and outputs are labelled with the training epochs and the spatio-temporal coarsening factor.
+
+2. Velocity - This directory containes the wind velocity field used in this study.
 
 ## Acknowledgment
 This work is financially supported by the Early Career Faculty grant of National Aeronautics and Space Administration (grant no. 80NSSC21K1813). MP is supported by the Carver Fellowship and Illinois Distinguished Fellowship.
