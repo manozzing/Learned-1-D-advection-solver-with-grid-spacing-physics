@@ -1,7 +1,7 @@
 # Learned 1D advection solver
 
 ## Introduction
-This repository is a supplementary to the manuscript "**Learned 1-D advection solver to accelerate air quality modeling**." Basically this repository contains Julia codes in Jupyter Notebook to emulate L94 advection scheme in 1-D.
+This repository is a supplementary to the manuscript "**Learned 1-D advection solver to accelerate air quality modeling** (https://arxiv.org/abs/2211.03906)." Basically this repository contains Julia codes in Jupyter Notebook to emulate L94 advection scheme in 1-D.
 
 The aims of this project include:
 
